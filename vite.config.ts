@@ -10,7 +10,7 @@ const SITE = {
   /** Name of this site in the backend and in PostHog. Keep it stable once live. */
   appName: 'routebench',
   /** Public URL of your landing-backend, without a trailing slash. */
-  apiUrl: 'https://api.your-domain.com',
+  apiUrl: 'https://sitemtrics.runtrminimal.com',
   /** PostHog project API key (starts with "phc_"). Leave empty to switch PostHog off. */
   posthogKey: '',
   /** PostHog host: https://us.i.posthog.com, https://eu.i.posthog.com, or your self-hosted URL. */
@@ -20,7 +20,7 @@ const SITE = {
 }
 
 /** GitHub Pages path. Must match the repository name exactly, capitals included. */
-const PAGES_BASE = '/routebench/'
+const PAGES_BASE = '/routerbench/'
 // ════════════════════════════════════════════════════════════════════════════
 
 // `npm run build`        -> dist/ for GitHub Pages, served from PAGES_BASE
